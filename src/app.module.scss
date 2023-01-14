@@ -1,0 +1,18 @@
+$containerWidth: 1200px;
+$containerPadding: 40px;
+/////////
+$mediaStepOne: 1200px;
+$mediaStepTwo: 992px;
+$mediaStepThree: 768px;
+$mediaStepFour: 480px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: $containerWidth;
+    margin: 0 auto;
+    //padding: 0px $containerPadding;
+}

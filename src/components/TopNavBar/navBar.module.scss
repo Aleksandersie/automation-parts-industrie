@@ -1,0 +1,23 @@
+.navColor {
+    background-color: #c7c7c7;
+}
+
+.ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    li:last-child {
+        border-right: 2px solid gray;
+    }
+}
+.button {
+    padding: 5px 10px;
+    font-size: 20px;
+    border-left: 2px solid gray;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover {
+        color: #c7c7c7;
+        background-color: #242424;
+    }
+}
