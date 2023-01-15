@@ -1,6 +1,6 @@
 .cardBody {
     width: 300px;
-    height: 430px;
+    height: 450px;
     padding: 10px;
     background-color: white;
     //border: 1px solid gray;
@@ -21,6 +21,10 @@
 }
 .itemName {
     font-weight: 600;
+}
+.itemImg {
+    //width: 200px;
+    height: 190px;
 }
 .priceValue {
     font-size: 29px;

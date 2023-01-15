@@ -12,7 +12,7 @@ const SmallCard: React.FC<ISmallCard> = ({ name, imageUrl, price }) => {
         <div className={s.cardBody}>
             <p className={s.itemName}>{name}</p>
             <div>
-                <img src={imageUrl} alt="" />
+                <img src={imageUrl} alt="" className={s.itemImg} />
             </div>
             <p className={s.priceValue}>{price}€</p>
             <div className={s.buyBtn}>Zum Shop</div>
