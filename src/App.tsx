@@ -10,7 +10,7 @@ function App() {
         <div>
             <TopStrip />
             <TopNavBar />
-            <TopImg />
+            {/*<TopImg />*/}
             <SearchArea />
         </div>
     )
